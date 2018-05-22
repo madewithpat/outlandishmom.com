@@ -1,18 +1,18 @@
 module.exports = {
   siteMetadata: {
-    title: "Outlandish Mommy"
+    title: 'Outlandish Ninja'
   },
   plugins: [
-    "gatsby-plugin-react-helmet",
+    'gatsby-plugin-react-helmet',
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/pages`,
-        name: "pages"
+        name: 'pages'
       }
     },
     {
-      resolve: "gatsby-transformer-remark",
+      resolve: 'gatsby-transformer-remark',
       options: {
         plugins: []
       }

@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 // import PropTypes from "prop-types";
-import Helmet from "react-helmet";
+import Helmet from 'react-helmet';
 
-import Navbar from "../components/Navbar";
-import "./all.css";
+import Navbar from '../components/Navbar';
+import './all.css';
 
 const TemplateWrapper = ({ children }) => (
   <div>
