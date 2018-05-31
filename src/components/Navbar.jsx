@@ -1,5 +1,10 @@
-import React from "react";
-import Link from "gatsby-link";
+import React from 'react';
+import styled from 'styled-components';
+import NavLink from './navbar/NavLink';
+
+const NavBar = styled.header.attrs({
+  class: 'pa3 pa4-ns'
+});
 
 const Navbar = () => (
   <nav class="pa3 pa4-ns">
@@ -21,4 +26,11 @@ const Navbar = () => (
   </nav>
 );
 
-export default Navbar;
+export default () => (
+  <NavBar>
+    <NavLink to="/">Home</NavLink>
+    <NavLink to="/about">About</NavLink>
+    <NavLink to="/">Store</NavLink>
+    <NavLink to="/contact">Contact</NavLink>
+  </NavBar>
+);
